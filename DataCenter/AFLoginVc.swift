@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class AFLoginVc: UIViewController {
     
     var accountTf: UITextField!
     var passTf: UITextField!
@@ -62,12 +62,10 @@ class ViewController: UIViewController {
     {
         if accountTf.text == "123" && passTf.text == "123"{
             print("密码正确，正在跳转")
-            let loginVc = AFLoginVc()
-            let nav = UINavigationController.init(rootViewController: loginVc)
-            UIApplication.sharedApplication().keyWindow?.rootViewController = nav
+            let tabBar = AFTabBarController()
+            UIApplication.sharedApplication().keyWindow?.rootViewController = tabBar
         }
     }
-    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		18514C031C520C98009A97E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18514C021C520C98009A97E4 /* AppDelegate.swift */; };
-		18514C051C520C98009A97E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18514C041C520C98009A97E4 /* ViewController.swift */; };
-		18514C081C520C98009A97E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18514C061C520C98009A97E4 /* Main.storyboard */; };
+		18514C051C520C98009A97E4 /* AFLoginVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18514C041C520C98009A97E4 /* AFLoginVc.swift */; };
 		18514C0A1C520C98009A97E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18514C091C520C98009A97E4 /* Assets.xcassets */; };
-		18514C0D1C520C98009A97E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18514C0B1C520C98009A97E4 /* LaunchScreen.storyboard */; };
+		18514C151C520FD4009A97E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18514C141C520FD4009A97E4 /* LaunchScreen.storyboard */; };
+		18514C1D1C521C3F009A97E4 /* AFHomeVc1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18514C1C1C521C3F009A97E4 /* AFHomeVc1.swift */; };
+		18514C1F1C521C64009A97E4 /* AFTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18514C1E1C521C64009A97E4 /* AFTabBarController.swift */; };
+		18514C221C522363009A97E4 /* AFHomeVc2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18514C211C522363009A97E4 /* AFHomeVc2.swift */; };
+		18514C241C52236E009A97E4 /* AFHomeVc3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18514C231C52236E009A97E4 /* AFHomeVc3.swift */; };
+		18514C261C52237A009A97E4 /* AFHomeVc4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18514C251C52237A009A97E4 /* AFHomeVc4.swift */; };
+		18514C291C5225B9009A97E4 /* AFTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18514C281C5225B9009A97E4 /* AFTabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		18514BFF1C520C98009A97E4 /* DataCenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataCenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18514C021C520C98009A97E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		18514C041C520C98009A97E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		18514C071C520C98009A97E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18514C041C520C98009A97E4 /* AFLoginVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFLoginVc.swift; sourceTree = "<group>"; };
 		18514C091C520C98009A97E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		18514C0C1C520C98009A97E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18514C0E1C520C98009A97E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18514C141C520FD4009A97E4 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18514C1C1C521C3F009A97E4 /* AFHomeVc1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AFHomeVc1.swift; sourceTree = "<group>"; };
+		18514C1E1C521C64009A97E4 /* AFTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AFTabBarController.swift; sourceTree = "<group>"; };
+		18514C211C522363009A97E4 /* AFHomeVc2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AFHomeVc2.swift; sourceTree = "<group>"; };
+		18514C231C52236E009A97E4 /* AFHomeVc3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AFHomeVc3.swift; sourceTree = "<group>"; };
+		18514C251C52237A009A97E4 /* AFHomeVc4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AFHomeVc4.swift; sourceTree = "<group>"; };
+		18514C281C5225B9009A97E4 /* AFTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AFTabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +65,34 @@
 			isa = PBXGroup;
 			children = (
 				18514C021C520C98009A97E4 /* AppDelegate.swift */,
-				18514C041C520C98009A97E4 /* ViewController.swift */,
-				18514C061C520C98009A97E4 /* Main.storyboard */,
+				18514C201C522324009A97E4 /* Controllers */,
+				18514C271C522578009A97E4 /* Views */,
 				18514C091C520C98009A97E4 /* Assets.xcassets */,
-				18514C0B1C520C98009A97E4 /* LaunchScreen.storyboard */,
+				18514C141C520FD4009A97E4 /* LaunchScreen.storyboard */,
 				18514C0E1C520C98009A97E4 /* Info.plist */,
 			);
 			path = DataCenter;
+			sourceTree = "<group>";
+		};
+		18514C201C522324009A97E4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				18514C041C520C98009A97E4 /* AFLoginVc.swift */,
+				18514C1E1C521C64009A97E4 /* AFTabBarController.swift */,
+				18514C1C1C521C3F009A97E4 /* AFHomeVc1.swift */,
+				18514C211C522363009A97E4 /* AFHomeVc2.swift */,
+				18514C231C52236E009A97E4 /* AFHomeVc3.swift */,
+				18514C251C52237A009A97E4 /* AFHomeVc4.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		18514C271C522578009A97E4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				18514C281C5225B9009A97E4 /* AFTabBar.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -90,6 +121,7 @@
 		18514BF71C520C98009A97E4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = AF;
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = AF;
@@ -122,9 +154,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18514C0D1C520C98009A97E4 /* LaunchScreen.storyboard in Resources */,
+				18514C151C520FD4009A97E4 /* LaunchScreen.storyboard in Resources */,
 				18514C0A1C520C98009A97E4 /* Assets.xcassets in Resources */,
-				18514C081C520C98009A97E4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,31 +166,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18514C051C520C98009A97E4 /* ViewController.swift in Sources */,
+				18514C241C52236E009A97E4 /* AFHomeVc3.swift in Sources */,
+				18514C221C522363009A97E4 /* AFHomeVc2.swift in Sources */,
+				18514C261C52237A009A97E4 /* AFHomeVc4.swift in Sources */,
+				18514C051C520C98009A97E4 /* AFLoginVc.swift in Sources */,
+				18514C291C5225B9009A97E4 /* AFTabBar.swift in Sources */,
+				18514C1D1C521C3F009A97E4 /* AFHomeVc1.swift in Sources */,
+				18514C1F1C521C64009A97E4 /* AFTabBarController.swift in Sources */,
 				18514C031C520C98009A97E4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		18514C061C520C98009A97E4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				18514C071C520C98009A97E4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		18514C0B1C520C98009A97E4 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				18514C0C1C520C98009A97E4 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		18514C0F1C520C98009A97E4 /* Debug */ = {

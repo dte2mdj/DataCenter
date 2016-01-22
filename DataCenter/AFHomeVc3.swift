@@ -13,7 +13,7 @@ class AFHomeVc3: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        self.view.backgroundColor = UIColor.cyanColor()
     }
 
     override func didReceiveMemoryWarning() {
